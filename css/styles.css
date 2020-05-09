@@ -1,0 +1,265 @@
+ /* tag selectors */
+ p {
+   color: grey
+ }
+
+ /* class selectors */
+
+
+ /* 1.navigation section */
+ #navigation-section {
+   background-color: hsl(0, 0%, 100%);
+   position: relative;
+   z-index: 3;
+   margin-left: : 90px;
+ }
+ #classname-top{
+   margin-right: 60px;
+ }
+ .svg-logo{
+   margin-left: 60px;
+ }
+
+ .navbar {
+   background-color: #fff;
+   position: static;
+   z-index: -1;
+
+ }
+
+ .navbar-nav {
+   margin-right: 100px;
+   margin-left: 300px;
+ }
+
+ .navbar-brand {
+   font-weight: bold;
+   font-size: 20px;
+   margin-left: 30px;
+ }
+
+ /*2. section intro */
+ #intro {
+   background-color: hsl(0, 0%, 98%);
+   padding: 0 10%;
+   position: relative;
+   z-index: 2;
+ }
+
+ .shadow-phone {
+   margin-left: 540px;
+ }
+
+ .classname {
+   margin-left: 0;
+   margin-right: 10px;
+   background-color: #04d197;
+   -webkit-border-top-left-radius: 28px;
+   -moz-border-radius-topleft: 28px;
+   border-top-left-radius: 28px;
+   -webkit-border-top-right-radius: 28px;
+   -moz-border-radius-topright: 28px;
+   border-top-right-radius: 28px;
+   -webkit-border-bottom-right-radius: 28px;
+   -moz-border-radius-bottomright: 28px;
+   border-bottom-right-radius: 28px;
+   -webkit-border-bottom-left-radius: 28px;
+   -moz-border-radius-bottomleft: 28px;
+   border-bottom-left-radius: 28px;
+   text-indent: 0;
+   border: 1px solid;
+   display: inline-block;
+   color: #ffffff;
+   font-family: arial;
+   font-size: 13px;
+   font-weight: bold;
+   font-style: normal;
+   height: 50px;
+   line-height: 50px;
+   width: 157px;
+   text-decoration: none;
+   text-align: center;
+ }
+  .iphone-parent{
+    position: relative;
+  }
+ .iphone6 {
+   width: 450px;
+   margin: 0px 50px 0px 50px;
+   position: relative;
+   top: -100px;
+   right:-10px;
+   height: 800px;
+ }
+ .biggest{
+   position: relative;
+   width: 520px;
+  height: 800px;
+  top: -240px;
+  right: -380px;
+ }
+ .h1-intro {
+   width: 380px;
+ }
+
+ .p-inro {
+   width: 380px;
+ }
+
+ .intro-div {
+   padding-top: 0;
+   margin-top: 0;
+   position: absolute;
+   top: 1px;
+ }
+
+ .intro-div-1 {
+   padding-top: 90px;
+ }
+
+ /*3. choose easy section */
+ #choose-easy {
+   background-color: hsl(220, 16%, 96%);
+   text-align: center;
+   padding: 10% 0;
+ }
+
+ .svg-choose {
+   background-color: #20c997;
+   border-radius: 100%;
+   margin-left: 30px;
+ }
+  .h3-choose-easy-long{
+    width: 235px;
+    margin: 0 auto;
+  }
+ .p-choose-easy {
+   text-align: left;
+   margin: 0 auto;
+   margin-left: 25px;
+   width: 600px;
+ }
+
+
+ .h2-choose-easy {
+   text-align: left;
+   margin: 0 auto;
+   padding: 5%;
+   padding-left: 15px;
+ }
+
+ .h3-choose-easy {
+   text-align: center;
+   padding: 10% 0;
+ }
+
+ .div-choose {
+   padding: 5% 2% 10%;
+ }
+
+ /* 4. latest articles */
+
+
+
+ .h1-latest-Articles {
+   text-align: left;
+   margin: 95px 20px 30px;
+ }
+
+ #images-latest {
+   height: 200px;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+ }
+
+ .article {
+   padding: 0;
+   margin-left: 0;
+   padding-left: 10px;
+   background-color: hsl(0, 0%, 100%);
+   text-align: center;
+   margin-bottom: 50px;
+
+ }
+
+ .h6-latest {
+   text-align: left;
+   margin: 15px 0;
+    color: grey;
+    padding-left: 20px;
+ }
+
+ .h4-latest {
+   text-align: left;
+   margin: 15px 0;
+   padding-left: 20px;
+ }
+
+ .p-latest {
+   text-align: left;
+   margin: 15px 0;
+   padding-left: 20px;
+ }
+
+ /* 5. footer-section */
+
+ .row-footer {
+   background-color: hsl(233, 26%, 24%);
+
+
+   text-align: center;}
+  #paragraph-footer{
+     margin-left: : 350px;
+     margin-bottom: 0;
+   }
+.icon-footer{
+  color: #fff;
+  margin: 0 5px;
+}
+
+
+ #svg-footer {
+   color: #fff;
+ }
+.col-footer{
+  margin-top: 20px;
+
+}
+.btn-footer{
+  margin-top: 20px;
+}
+
+.p-footer1{margin-top: 20px;
+
+}
+
+ #nav-footer {
+   color: #fff;
+   margin-bottom: 15%;
+   margin-left: 8%;
+ }
+@media (min-width: 10px) and (max-width: 991px) {
+  .body{text-align: center;}
+  .iphone6{
+    position: relative;
+    right: -430px;
+    top: -500px;
+  }
+.biggest{
+position: relative;
+width: 520px;
+height: 800px;
+top: -240px;
+right: -380px;
+}
+.h2-choose-easy{
+  text-align: center;
+  width: 60%;
+}
+.p-choose-easy{
+  text-align: center;
+  width: 80%;
+}
+
+}
